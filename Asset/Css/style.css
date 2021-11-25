@@ -6,7 +6,7 @@ body{
     position: absolute;
     top: 0;
     z-index: 2;
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.675);
 }
 .child-2{
     color: white;
@@ -79,4 +79,33 @@ body{
 }
 .first-para{
     text-align: center;
+}
+.icon-1{
+    text-align: center;
+    color: rgb(152, 82, 218);
+}
+.FC-1{
+    text-align: center;
+    margin: 0;
+    padding: 10%;
+}
+.btn-2{
+    background-color: gold;
+    color: black;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+.btn-2:hover{
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+.for-img img{
+    width: 100%;
+}
+.for-text{
+    margin-top: 0;
+    padding: 5%;
 }
