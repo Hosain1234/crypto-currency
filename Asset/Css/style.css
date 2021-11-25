@@ -1,0 +1,82 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+.child-1{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    background-color: whitesmoke;
+}
+.child-2{
+    color: white;
+    position: absolute;
+    margin-left: 5%;
+    margin-right: 5%;
+    top: 0;
+    z-index: 1;
+}
+.child-2 p{
+    color: whitesmoke;
+    font-weight: 400;
+}
+.section-1{
+    position: relative;
+}
+.navbar-brand{
+    font-size: 'big';
+    font-weight: 800;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.nav-item{
+    color: white;
+    margin-right: 30px;
+    padding: 0px 10px;
+}
+.nav-item:hover{
+    background-color: gold;
+    color: white;
+    border-radius: 5px;
+}
+.nav-btn{
+    border: none;
+    background-color: transparent;
+}
+.nav-btn:hover{
+    color: white;
+    background-color: gold;
+    border-radius: 35px;
+    padding: 5px 10px;
+}
+.begining-here{
+    padding-top: 10%;
+}
+.begining-here span{
+    font-weight: 700;
+    color: white;
+}
+.begining-here span:hover{
+    color: gold;
+}
+.col-lg-8{
+    text-align: center;
+}
+#my-video{
+    width: 100%;
+}
+.btn-1{
+    border: none;
+    background-color: gold;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.btn-1:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid gold;
+}
+.first-para{
+    text-align: center;
+}
