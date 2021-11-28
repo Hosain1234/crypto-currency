@@ -92,19 +92,6 @@ body{
     margin: 0;
     padding: 10%;
 }
-.btn-2{
-    background-color: gold;
-    color: black;
-    font-weight: 500;
-    border: none;
-    border-radius: 5px;
-    padding: 5px 5px;
-}
-.btn-2:hover{
-    color: white;
-    background-color: black;
-    border: 1px solid white;
-}
 .for-img img{
     width: 100%;
 }
@@ -196,7 +183,8 @@ body{
     background-color: white;
 }
 .tm-img img{
-    border-radius: 50%;
+    border-radius: 48%;
+    padding: 0% 10%;
 }
 .section-5{
     padding: 5%;
@@ -208,4 +196,25 @@ body{
     font-weight: 400;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+/* .carousel-item img{
+    padding: 0 30%;
+    border-radius: 50%;
+} */
+#carousel img{
+    width: 100%;
+    border-radius: 50%;
+    padding: 15%;
+    top: 0%;
+}
+.section-6{
+    padding: 5%;
+    background-color: gold;
+}
+.connection-icon a{
+    margin-left: 15px;
+}
+.footer{
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.555);
 }
